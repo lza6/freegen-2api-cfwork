@@ -1,0 +1,835 @@
+请求网址
+https://prompt-signer.freegen.app/
+请求方法
+POST
+状态代码
+200 OK
+远程地址
+127.0.0.1:10808
+引荐来源网址政策
+strict-origin-when-cross-origin
+access-control-allow-origin
+https://freegen.app
+alt-svc
+h3=":443"; ma=86400
+cf-ray
+9f076b9b9a84aa3f-NRT
+content-encoding
+zstd
+content-type
+application/json
+date
+Wed, 22 Apr 2026 20:36:22 GMT
+nel
+{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to
+{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=TQ6yl9nRLLVtmiNHiSBQG2UYEny0Zj%2BzNVQkW51GAT5bp9Ak1yA6xIcGKwqosUg0BL5lUX%2F%2BzPfXfXCnI9AcqIZYHe8qvqSAnNqZcae3cKOi%2BGNkxzia8VecPXu0R52ByMS%2F98SFPMktSRud"}]}
+server
+cloudflare
+:authority
+prompt-signer.freegen.app
+:method
+POST
+:path
+/
+:scheme
+https
+accept
+*/*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+zh-CN,zh;q=0.9,en;q=0.8
+content-length
+18
+content-type
+application/json
+origin
+https://freegen.app
+priority
+u=1, i
+referer
+https://freegen.app/
+sec-ch-ua
+"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+
+
+{"prompt":"a cat"}
+
+
+{
+    "prompt": "a cat",
+    "ts": 1776890182,
+    "sig": "Z/M5yByOEfdoGq+IHpCxxE+AwKHhNvZgsccxspYMAcs="
+}
+
+
+请求网址
+https://image-generator.freegen.app/
+请求方法
+POST
+状态代码
+200 OK
+远程地址
+127.0.0.1:10808
+引荐来源网址政策
+strict-origin-when-cross-origin
+access-control-allow-origin
+https://freegen.app
+alt-svc
+h3=":443"; ma=86400
+cf-ray
+9f076b9e38eb68d3-NRT
+content-encoding
+zstd
+content-type
+application/json
+date
+Wed, 22 Apr 2026 20:36:23 GMT
+nel
+{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to
+{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7GsNc%2Fs6H78usf9jQi0mg9Z7Fi85EE8IU8ODGCCIVctiD0eojnoH3MrGmBeYtCo9xu3ztmVmrNcaf74SxMQqScQF7G2eX7oLlCM%2FdTvvebAhhGLSsOkPKSuHL4oEEnUWJsOa%2F1odXRsbCfO2KMw%3D"}]}
+server
+cloudflare
+:authority
+image-generator.freegen.app
+:method
+POST
+:path
+/
+:scheme
+https
+accept
+*/*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+zh-CN,zh;q=0.9,en;q=0.8
+content-length
+104
+content-type
+application/json
+origin
+https://freegen.app
+priority
+u=1, i
+referer
+https://freegen.app/
+sec-ch-ua
+"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+
+{"prompt":"a cat","ts":1776890182,"sig":"Z/M5yByOEfdoGq+IHpCxxE+AwKHhNvZgsccxspYMAcs=","ratio_id":"1:1"}
+
+
+{
+    "job_id": "3aff1234-83dc-4683-a67a-5e5ad2892ab2",
+    "res_prompt": "a cat",
+    "status": "queued"
+}
+
+
+请求网址
+https://stats.freegen.app/record-completion
+请求方法
+POST
+状态代码
+200 OK
+远程地址
+127.0.0.1:10808
+引荐来源网址政策
+strict-origin-when-cross-origin
+access-control-allow-headers
+Content-Type
+access-control-allow-methods
+GET, POST, OPTIONS
+access-control-allow-origin
+*
+alt-svc
+h3=":443"; ma=86400
+cache-control
+public, max-age=60
+cf-ray
+9f076bea5d937897-NRT
+content-encoding
+zstd
+content-type
+application/json
+date
+Wed, 22 Apr 2026 20:36:36 GMT
+nel
+{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to
+{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FXxdUUI6bQdC3U0VV9NX%2BV4ducXKaMEydCjzNrH9DBPs0t4qlXlp%2BdaOtyKMX3vB7Oqwf36cGzAqPHY9vdBVWkkYVLwhwAcVxMEqC%2BUuFbG%2FVnSvDW37GlN6kidmXY%2Fz6BUmlg%3D%3D"}]}
+server
+cloudflare
+:authority
+stats.freegen.app
+:method
+POST
+:path
+/record-completion
+:scheme
+https
+accept
+*/*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+zh-CN,zh;q=0.9,en;q=0.8
+content-length
+110
+content-type
+application/json
+origin
+https://freegen.app
+priority
+u=1, i
+referer
+https://freegen.app/
+sec-ch-ua
+"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+
+
+{"job_id":"3aff1234-83dc-4683-a67a-5e5ad2892ab2","total_time_ms":11664,"timestamp":"2026-04-22T20:33:47.293Z"}
+
+{
+    "success": true,
+    "message": "Timing recorded",
+    "job_id": "3aff1234-83dc-4683-a67a-5e5ad2892ab2"
+}
+
+curl ^"https://prompt-signer.freegen.app/^" ^
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: zh-CN,zh;q=0.9,en;q=0.8^" ^
+  -H ^"content-type: application/json^" ^
+  -H ^"origin: https://freegen.app^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://freegen.app/^" ^
+  -H ^"sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"147^\^", ^\^"Not.A/Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"147^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-site^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36^" ^
+  --data-raw ^"^{^\^"prompt^\^":^\^"a cat^\^"^}^"
+
+
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "generateImage",
+                "scriptId": "14",
+                "url": "https://freegen.app/",
+                "lineNumber": 1774,
+                "columnNumber": 32
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "10808",
+        "request": {
+          "method": "POST",
+          "url": "https://prompt-signer.freegen.app/",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "prompt-signer.freegen.app"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9,en;q=0.8"
+            },
+            {
+              "name": "content-length",
+              "value": "18"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://freegen.app/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 18,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"prompt\":\"a cat\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9f0771930be29d5f-NRT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "zstd"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Apr 2026 20:40:27 GMT"
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NKhdIcMHerBgZ%2FBUHrzmCFSDMbOQdalCdkUuTY6dzIonubngop6eWt2PrU1Jf3c5n5Wjw5Gnq%2FfAJjAqE8YYMnvOGIW8p%2BnftlURRTPEz6YCPcdDzhPOOGn4ub1VcFfrkHgDCFhbSq9e9VxsdgVIZjcoYF34l6%2Fy\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 87,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 529,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "127.0.0.1",
+        "startedDateTime": "2026-04-22T20:37:39.132Z",
+        "time": 271.25900000100955,
+        "timings": {
+          "blocked": 2.077999991664663,
+          "dns": -1,
+          "ssl": 175.11,
+          "connect": 176.179,
+          "send": 0.4159999999999968,
+          "wait": 91.37000000513905,
+          "receive": 1.2160000042058527,
+          "_blocked_queueing": 1.049999991664663,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "53158"
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "generateImage",
+                "scriptId": "14",
+                "url": "https://freegen.app/",
+                "lineNumber": 1804,
+                "columnNumber": 35
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "10808",
+        "request": {
+          "method": "POST",
+          "url": "https://image-generator.freegen.app/",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "image-generator.freegen.app"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9,en;q=0.8"
+            },
+            {
+              "name": "content-length",
+              "value": "104"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://freegen.app/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 104,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"prompt\":\"a cat\",\"ts\":1776890427,\"sig\":\"eBBVFHlaB5sfPlYvt0WYwJ3cqjtV9ZFg/3Pqsl9ytfY=\",\"ratio_id\":\"1:1\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9f07719499aaafd0-NRT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "zstd"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Apr 2026 20:40:27 GMT"
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Fsk65DgLlhrE1e%2Fy8MUzLNpebzpPIPMRBSbGFN4RiVo7y1l9qB%2BicVnk7ZsQwu%2BzoRu6lQnnc8ew%2F%2Fv09NJ0TpL%2FDem1vjD1cFQMbZ6OsQCm2Br7bKno%2BliuqAX%2Bq%2FP81dKywzgxzGyi%2FkqHDobjI7sza4THH0brmhg%3D\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 88,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 538,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "127.0.0.1",
+        "startedDateTime": "2026-04-22T20:37:39.405Z",
+        "time": 399.8429999919608,
+        "timings": {
+          "blocked": 2.6930000060293824,
+          "dns": -1,
+          "ssl": 146.222,
+          "connect": 146.797,
+          "send": 0.2779999999999916,
+          "wait": 249.4090000078492,
+          "receive": 0.6659999780822545,
+          "_blocked_queueing": 0.8990000060293823,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "53165"
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "ws.onmessage",
+                "scriptId": "14",
+                "url": "https://freegen.app/",
+                "lineNumber": 1898,
+                "columnNumber": 14
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "10808",
+        "request": {
+          "method": "POST",
+          "url": "https://stats.freegen.app/record-completion",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "stats.freegen.app"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/record-completion"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9,en;q=0.8"
+            },
+            {
+              "name": "content-length",
+              "value": "109"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://freegen.app/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 109,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"job_id\":\"b03d3e98-709b-485a-8c61-00d20b374921\",\"total_time_ms\":5646,\"timestamp\":\"2026-04-22T20:37:45.453Z\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "value": "Content-Type"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=60"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9f0771baea0cdb4c-NRT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "zstd"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Apr 2026 20:40:34 GMT"
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lycLRkCXTwmTvnahYA0wTx%2BGbk5v84aN0kgXD9WojwANoY4Qzi4ATjQJMJU%2FD5vDaamd5hOyIo%2FyhKWrk5OdMq3t5GI63Ad3hONKQu0jWN93Lo3hQplM07jJDBFKmRkGIR%2B%2Bc0q8EJoydh8Uyp0Aig%3D%3D\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 92,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 402,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "127.0.0.1",
+        "startedDateTime": "2026-04-22T20:37:45.454Z",
+        "time": 797.3820000188425,
+        "timings": {
+          "blocked": 233.985000015283,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.274,
+          "wait": 562.2750000075195,
+          "receive": 0.8479999960400164,
+          "_blocked_queueing": 233.410000015283,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "53261"
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+

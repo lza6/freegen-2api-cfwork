@@ -1,0 +1,2136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Free AI Image Generator - No Signup, No Restrictions</title>
+    <meta name="description" content="Generate stunning AI images instantly with our free tool powered by Z-Image Turbo. Transform text to art in seconds. No signup required - start creating now!">
+    <meta name="keywords" content="AI image generator, free AI art, text to image, AI art generator, free image creation, online art generator, z-image turbo, free ai tool">
+    <meta name="author" content="FreeGen.app">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://freegen.app/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://freegen.app/">
+    <meta property="og:title" content="Free AI Image Generator - Create Art in Seconds">
+    <meta property="og:description" content="Transform text into stunning images with our free AI generator. No signup required, unlimited generations.">
+    <meta property="og:image" content="https://freegen.app/og-image.jpg">
+    <meta property="og:site_name" content="FreeGen">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://freegen.app/">
+    <meta property="twitter:title" content="Free AI Image Generator">
+    <meta property="twitter:description" content="Create AI art instantly. No signup, completely free.">
+    <meta property="twitter:image" content="https://freegen.app/og-image.jpg">
+
+    <!-- Schema.org structured data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Free AI Image Generator",
+      "alternateName": "FreeGen",
+      "url": "https://freegen.app",
+      "description": "Free AI-powered image generator using the Z-Image Turbo model. Creates stunning artwork from text prompts instantly. No signup required.",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Text-to-image generation",
+        "Image-to-image transformation",
+        "Multiple aspect ratios",
+        "No signup required",
+        "Unlimited free generations",
+        "Real-time image generation"
+      ],
+      "screenshot": "https://freegen.app/og-image.jpg",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1247"
+      }
+    }
+    </script>
+
+    <!-- FAQ Schema for rich snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the AI image generator really free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our AI image generator is completely free to use with no signup required. You can generate unlimited images without any hidden costs or subscriptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What aspect ratios are available for AI image generation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer multiple aspect ratios including 1:1, 4:3, 3:4, 16:9, and 9:16 to fit any use case from social media posts to widescreen wallpapers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to create an account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No account creation is required. Simply enter your text prompt and click generate to create AI images instantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to generate an image?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Image generation typically takes less than 10 seconds. You'll see your generated image appear in real-time once processing is complete."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FreeGen",
+      "url": "https://freegen.app",
+      "logo": "https://freegen.app/favicon/favicon-96x96.png",
+      "sameAs": [],
+      "description": "Free AI image generation platform powered by Z-Image Turbo, providing unlimited access to advanced AI art creation tools."
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://freegen.app/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- HowTo Schema for step-by-step guide -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Generate AI Images with FreeGen",
+      "description": "Step-by-step guide to creating stunning AI-generated images using our free AI image generator",
+      "image": "https://freegen.app/og-image.jpg",
+      "totalTime": "PT15S",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+      },
+      "tool": {
+        "@type": "HowToTool",
+        "name": "FreeGen AI Image Generator"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Enter Your Prompt",
+          "text": "Describe the image you want to create in the text box. Be specific and detailed for best results.",
+          "url": "https://freegen.app/#step1"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Choose Your Aspect Ratio",
+          "text": "Select from 1:1, 4:3, 3:4, 16:9, or 9:16 aspect ratios to match your creative needs.",
+          "url": "https://freegen.app/#step2"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Upload an Image (Optional)",
+          "text": "Use the Image Prompt button to upload a reference image for image-to-image AI transformation.",
+          "url": "https://freegen.app/#step3"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Generate & Download",
+          "text": "Click Generate and wait less than 10 seconds. Your AI-generated image will appear automatically. Right-click to save!",
+          "url": "https://freegen.app/#step4"
+        }
+      ]
+    }
+    </script>
+
+    <!-- ImageGallery Schema for example images -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "AI Generated Image Examples",
+      "description": "Sample images created with our free AI image generator",
+      "itemListElement": [
+        {
+          "@type": "ImageObject",
+          "position": 1,
+          "name": "AI Generated Seal Point Cat",
+          "contentUrl": "https://assets.freegen.app/web/examples/1_xs.webp",
+          "thumbnailUrl": "https://assets.freegen.app/web/examples/1_xs.webp",
+          "description": "AI generated fluffy seal point cat with blue eyes lounging in green grass field",
+          "caption": "A fluffy seal point cat lounging in a vibrant green grass field",
+          "creator": {
+            "@type": "Organization",
+            "name": "FreeGen AI Image Generator"
+          },
+          "acquireLicensePage": "https://freegen.app/terms",
+          "license": "https://freegen.app/terms"
+        },
+        {
+          "@type": "ImageObject",
+          "position": 2,
+          "name": "AI Generated Winter Snowman Scene",
+          "contentUrl": "https://assets.freegen.app/web/examples/2_xs.webp",
+          "thumbnailUrl": "https://assets.freegen.app/web/examples/2_xs.webp",
+          "description": "AI generated winter scene with cheerful snowman wearing red hat and scarf next to cabin",
+          "caption": "A cheerful snowman with a red hat and scarf next to a cabin",
+          "creator": {
+            "@type": "Organization",
+            "name": "FreeGen AI Image Generator"
+          },
+          "acquireLicensePage": "https://freegen.app/terms",
+          "license": "https://freegen.app/terms"
+        },
+        {
+          "@type": "ImageObject",
+          "position": 3,
+          "name": "AI Generated Stone Cat Sculpture",
+          "contentUrl": "https://assets.freegen.app/web/examples/3_xs.webp",
+          "thumbnailUrl": "https://assets.freegen.app/web/examples/3_xs.webp",
+          "description": "AI generated artistic stone cat sculpture made from natural rocks",
+          "caption": "Cat made from stones",
+          "creator": {
+            "@type": "Organization",
+            "name": "FreeGen AI Image Generator"
+          },
+          "acquireLicensePage": "https://freegen.app/terms",
+          "license": "https://freegen.app/terms"
+        }
+      ]
+    }
+    </script>
+
+    <!-- DNS prefetch and preconnect for critical third-party resources -->
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+        <!-- Critical CSS inlined for faster rendering -->
+    
+
+    <!-- Bootstrap CSS - Normal synchronous loading -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Free Gen" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+    body {
+      background-color: #f8f9fa;
+      overflow-y: scroll; /* Always show vertical scrollbar to prevent layout jumping */
+      padding-bottom: 200px; /* Space for sticky footer ad */
+    }
+    .container {
+      margin-top: 40px;
+      max-width: 1420px;
+    }
+    .loading {
+      font-size: 1.25rem;
+      color: #0d6efd;
+    }
+    #imageContainer img {
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    /* Flexbox layout for generator section with ads */
+    .generator-layout {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+    }
+    .sidebar-ad {
+      flex-shrink: 0;
+      display: none; /* Hidden by default (mobile) */
+    }
+    .main-generator-box {
+      flex: 0 1 600px;
+      max-width: 600px;
+      width: 100%;
+    }
+    /* Show sidebar ads on large screens */
+    @media (min-width: 1200px) {
+      .sidebar-ad {
+        display: block;
+      }
+    }
+    .btn-primary {
+      background-color: #FF9800 !important;
+      border-color: #FF9800 !important;
+      color: #fff;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .btn-primary:focus-visible {
+      background-color: #e68900;
+      border-color: #e68900;
+      color: #fff;
+    }
+    .btn-primary:focus,
+    .btn-primary.focus {
+      outline: none;
+    }
+    .btn-primary:active,
+    .btn-primary.active,
+    .btn-primary:active:focus,
+    .btn-primary.active:focus {
+      background-color: #d57c00 !important;
+      border-color: #d57c00 !important;
+      box-shadow: none !important;
+    }
+    .navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    /* White background for navbar on content pages (not home page) */
+    body:not(.home-page) .navbar {
+      background-color: #ffffff !important;
+      border-bottom: 1px solid #e9ecef;
+    }
+    .custom-btn {
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      color: #495057;
+      font-size: 14px;
+      border-radius: 4px;
+      padding: 4px 8px;
+      transition: background-color 0.2s, border-color 0.2s;
+    }
+    .custom-btn:hover {
+      background-color: #f7f7f7;
+      border-color: #bbbbbb;
+    }
+    .custom-btn:active {
+      background-color: #f0f0f0;
+      border-color: #aaaaaa !important;
+    }
+    .btn-outline-secondary {
+      /* --bs-btn-border-color: #9fa8af !important; */
+      --bs-btn-border-color: #bbb !important;
+      background-color: #ffffff !important;
+      color: #495057 !important;
+    }
+    .btn-outline-secondary:hover,
+    .btn-outline-secondary:focus,
+    .btn-outline-secondary:active {
+      background-color: #f7f7f7 !important;
+      border-color: #bbbbbb !important;
+      color: #495057 !important;
+    }
+    .info-button {
+      background-color: #ffffff !important;
+      border: 1px solid #cccccc !important;
+      border: 1px solid #d7d7d7 !important;
+      color: #495057 !important;
+    }
+    .info-button:hover,
+    .info-button:focus,
+    .info-button:active {
+      background-color: #f7f7f7 !important;
+      border-color: #bbbbbb !important;
+      color: #495057 !important;
+    }
+
+    /* Style buttons sizing */
+    .custom-style-btn {
+      font-size: 0.85rem; /* Slightly smaller font size */
+      padding: 0.25rem 0.5rem; /* Reduced vertical padding */
+    }
+
+    /* Style button selected state - make it prominent */
+    .btn-check:checked + .custom-style-btn {
+      background-color: #495057 !important;
+      border-color: #495057 !important;
+      color: #ffffff !important;
+    }
+
+    .btn-check:checked + .custom-style-btn:hover {
+      background-color: #343a40 !important;
+      border-color: #343a40 !important;
+      color: #ffffff !important;
+    }
+
+    /* Placeholder with fixed opacity */
+    textarea.form-control::placeholder {
+      opacity: 0.7;
+    }
+
+    .form-control:focus {
+      border-color: #d4d4d4 !important;  /* Subtle but noticeable */
+      box-shadow: 0 0 0 0.75px rgba(0, 0, 0, 0.025) !important;  /* Very light shadow */
+      outline: none;
+      transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+    textarea.form-control:focus {
+      border-color: #d4d4d4 !important;  /* Subtle but noticeable */
+      box-shadow: 0 0 0 0.75px rgba(0, 0, 0, 0.025) !important;  /* Very light shadow */
+      outline: none;
+    }
+    /* Info button styling - subtle appearance */
+    .info-button {
+      background-color: transparent;
+      border: 1px solid #dee2e6;
+      color: #6c757d;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .info-button:hover {
+      background-color: #f8f9fa;
+      border-color: #adb5bd;
+      color: #495057;
+    }
+    .info-button:active, .info-button:focus {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+      color: #495057;
+      outline: none;
+      box-shadow: none;
+    }
+    .info-button svg {
+      margin-right: 2px;
+    }
+
+    /* Fancy variant for the AI Selfie external link */
+    .info-button--aiselfie {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(135deg, #7c3aed 0%, #db2777 60%, #f59e0b 100%) !important;
+      border: 1px solid transparent !important;
+      color: #ffffff !important;
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(124, 58, 237, 0.25);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+    }
+    .info-button--aiselfie:hover,
+    .info-button--aiselfie:focus,
+    .info-button--aiselfie:active {
+      background: linear-gradient(135deg, #7c3aed 0%, #db2777 60%, #f59e0b 100%) !important;
+      border-color: transparent !important;
+      color: #ffffff !important;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);
+      filter: brightness(1.05);
+    }
+    .info-button--aiselfie img {
+      background: #ffffff;
+      border-radius: 4px;
+      padding: 1px;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+    }
+    .info-button--aiselfie::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -75%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+      transform: skewX(-20deg);
+      transition: left 0.6s ease;
+      pointer-events: none;
+    }
+    .info-button--aiselfie:hover::before {
+      left: 125%;
+    }
+
+    .mobile-menu-item--aiselfie {
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, rgba(219, 39, 119, 0.08) 60%, rgba(245, 158, 11, 0.08) 100%);
+      font-weight: 600;
+      color: #7c3aed !important;
+    }
+    .mobile-menu-item--aiselfie:hover {
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.14) 0%, rgba(219, 39, 119, 0.14) 60%, rgba(245, 158, 11, 0.14) 100%) !important;
+      color: #7c3aed !important;
+    }
+
+    /* Mobile-specific styles */
+    @media (max-width: 767px) {
+      /* Hide the navbar only on home page */
+      .home-page .navbar {
+        display: none !important;
+      }
+
+      /* Mobile hero banner optimizations */
+      .hero-content {
+        padding: 1.5rem !important;
+      }
+
+      .hero-content .display-5 {
+        font-size: 1.5rem !important;
+        margin-bottom: 1rem !important;
+      }
+
+      .hero-content .h4 {
+        font-size: 1rem !important;
+        margin-bottom: 1rem !important;
+      }
+
+      .hero-content .lead {
+        font-size: 0.95rem !important;
+        margin-bottom: 1.5rem !important;
+      }
+
+      .quick-stats .stat-item {
+        padding: 0.75rem 0.5rem !important;
+        font-size: 0.85rem !important;
+      }
+
+      .quick-stats .h5 {
+        font-size: 1rem !important;
+        margin-bottom: 0.25rem !important;
+      }
+
+      .quick-stats small {
+        font-size: 0.75rem !important;
+      }
+
+      /* Hide floating badges on mobile - they cause overflow */
+      .floating-badges {
+        display: none !important;
+      }
+
+      /* Stack the hero content better on mobile */
+      .hero-banner .row {
+        margin: 0 !important;
+      }
+
+      .hero-banner .col-lg-8,
+      .hero-banner .col-lg-4 {
+        padding: 0 !important;
+      }
+
+      /* Mobile comparison section improvements */
+      .comparison-container .row {
+        flex-direction: column !important;
+      }
+
+      .comparison-container .col-md-5:first-child {
+        order: 1 !important;
+        margin-bottom: 1rem !important;
+      }
+
+      .comparison-container .col-md-2 {
+        order: 2 !important;
+        margin: 1rem 0 !important;
+      }
+
+      .comparison-container .col-md-5:last-child {
+        order: 3 !important;
+      }
+
+      .vs-divider {
+        padding: 1rem 0 !important;
+      }
+
+      .vs-divider .h4 {
+        font-size: 1.2rem !important;
+      }
+
+      .vs-divider div[style*="font-size: 2.5rem"] {
+        font-size: 1.8rem !important;
+      }
+
+      .comparison-point {
+        font-size: 0.9rem !important;
+      }
+
+      .comparison-side .h5 {
+        font-size: 1rem !important;
+      }
+
+      /* Position textarea container relative for mobile nav positioning */
+      .textarea-wrapper {
+        position: relative;
+      }
+
+      /* Mobile navigation dropdown container */
+      .mobile-nav-dropdown {
+        position: absolute;
+        top: -7px;
+        right: -7px;
+        z-index: 20;
+      }
+
+      /* Mobile navigation button - positioned outside the border */
+      .mobile-info-button {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.95);
+        border: 1px solid #dee2e6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        transition: all 0.2s ease;
+        cursor: pointer;
+      }
+
+      .mobile-info-button:hover, .mobile-info-button:active {
+        background-color: #ffffff;
+        /* transform: scale(1.05);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); */
+      }
+
+      .mobile-info-button svg {
+        width: 16px;
+        height: 16px;
+        color: #6c757d;
+      }
+
+      /* Mobile dropdown menu */
+      .mobile-dropdown-menu {
+        position: absolute;
+        top: 35px;
+        right: 0;
+        min-width: 150px;
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.2s ease;
+        z-index: 25;
+      }
+
+      .mobile-dropdown-menu.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      .mobile-menu-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 16px;
+        color: #6c757d;
+        text-decoration: none;
+        font-size: 14px;
+        transition: all 0.2s ease;
+        border-bottom: 1px solid #f1f3f4;
+      }
+
+      .mobile-menu-item:last-child {
+        border-bottom: none;
+      }
+
+      .mobile-menu-item:hover {
+        background-color: #f8f9fa;
+        color: #495057;
+        text-decoration: none;
+      }
+
+      .mobile-menu-item svg {
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+      }
+
+      /* No extra padding needed since button is outside textarea */
+      #prompt {
+        padding-right: 12px !important; /* Default Bootstrap padding */
+      }
+
+      /* Smaller title on mobile */
+      h1 {
+        font-size: 1.5rem !important;
+        margin-bottom: 1rem !important;
+      }
+
+      h1 svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      /* Adjust container spacing for mobile without navbar */
+      .container {
+        margin-top: 20px !important;
+      }
+    }
+
+    /* Desktop styles - ensure info button shows in navbar */
+    @media (min-width: 768px) {
+      .mobile-info-button {
+        display: none !important;
+      }
+    }
+
+    /* Content page mobile navigation styling - only applies to mobile */
+    @media (max-width: 767px) {
+      .navbar .mobile-nav-dropdown {
+        position: relative !important;
+        top: 0 !important;
+      }
+
+      .navbar .mobile-info-button {
+        position: static !important;
+        width: 40px !important;
+        height: 34px !important;
+        background-color: #f8f9fa !important;
+        border: 1px solid #dee2e6 !important;
+        border-radius: 8px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        cursor: pointer !important;
+        transition: all 0.2s ease !important;
+        box-shadow: none !important;
+        pointer-events: auto !important;
+        z-index: 10 !important;
+      }
+
+      .navbar .mobile-info-button:hover {
+        background-color: #e9ecef !important;
+        border-color: #adb5bd !important;
+      }
+
+      .navbar .mobile-info-button svg {
+        color: #6c757d !important;
+        width: 20px !important;
+        height: 20px !important;
+      }
+
+      .navbar .mobile-dropdown-menu {
+        position: absolute !important;
+        top: 100% !important;
+        right: 0 !important;
+        left: auto !important;
+        margin-top: 0.5rem !important;
+        width: 180px !important;
+        z-index: 1000 !important;
+        background: white !important;
+        border: 1px solid #dee2e6 !important;
+        border-radius: 12px !important;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transform: translateY(-10px) !important;
+        transition: all 0.2s ease !important;
+        overflow: hidden !important;
+      }
+
+      .navbar .mobile-dropdown-menu.show {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: translateY(0) !important;
+      }
+
+      .navbar .mobile-menu-item {
+        display: flex !important;
+        align-items: center !important;
+        gap: 8px !important;
+        padding: 12px 16px !important;
+        color: #6c757d !important;
+        text-decoration: none !important;
+        font-size: 14px !important;
+        transition: all 0.2s ease !important;
+        border-bottom: 1px solid #f1f3f4 !important;
+      }
+
+      .navbar .mobile-menu-item:last-child {
+        border-bottom: none !important;
+      }
+
+      .navbar .mobile-menu-item:hover {
+        background-color: #f8f9fa !important;
+        color: #495057 !important;
+        text-decoration: none !important;
+      }
+
+      .navbar .mobile-menu-item svg {
+        width: 16px !important;
+        height: 16px !important;
+        flex-shrink: 0 !important;
+      }
+    }
+
+    /* Simple button styling - removes hover and active effects */
+    .simple-btn:hover,
+    .simple-btn:active,
+    .simple-btn:focus {
+      background-color: transparent !important;
+      border-color: #bbb !important;
+      color: #6c757d !important;
+      box-shadow: none !important;
+    }
+
+  </style>
+
+    <!-- BuySellAds -->
+    <script type="text/javascript">
+    (function(){
+        var bsa_optimize=document.createElement('script');
+        bsa_optimize.type='text/javascript';
+        bsa_optimize.async=true;
+        bsa_optimize.src='https://cdn4.buysellads.net/pub/freegen.js?'+(new Date()-new Date()%600000);
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa_optimize);
+    })();
+    </script>
+  </head>
+  <body class="home-page">
+
+      <!-- Header with navigation -->
+  <nav class="navbar navbar-light bg-light mb-4">
+    <div class="container-fluid">
+      <a href="/" class="btn btn-sm info-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/>
+        </svg>
+        FreeGen
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <div class="d-none d-md-flex">
+        <a href="https://aiselfie.com/" target="_blank" rel="noopener noreferrer" class="btn btn-sm info-button info-button--aiselfie me-2">
+          <img src="https://aiselfie.com/favicon-96x96.png" alt="" width="16" height="16" style="vertical-align: text-bottom;">
+          AI Selfie
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: baseline; margin-left: 2px; opacity: 0.7;">
+            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+          </svg>
+        </a>
+        <a href="/examples" class="btn btn-sm info-button me-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+          </svg>
+          Examples
+        </a>
+        <a href="/about" class="btn btn-sm info-button me-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg>
+          About
+        </a>
+        <a href="/stats" class="btn btn-sm info-button me-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zM1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+          </svg>
+          Stats
+        </a>
+        <a href="/terms" class="btn btn-sm info-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+          </svg>
+          Terms
+        </a>
+      </div>
+      
+      <!-- Mobile Navigation Dropdown -->
+      <div class="mobile-nav-dropdown d-md-none position-relative">
+        <button type="button" id="contentPageMobileNavBtn" class="mobile-info-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+        <!-- Mobile dropdown menu -->
+        <div id="contentPageMobileDropdownMenu" class="mobile-dropdown-menu">
+          <a href="https://aiselfie.com/" target="_blank" rel="noopener noreferrer" class="mobile-menu-item mobile-menu-item--aiselfie">
+            <img src="https://aiselfie.com/favicon-96x96.png" alt="" width="16" height="16" style="vertical-align: text-bottom;">
+            AI Selfie
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: baseline; margin-left: 2px; opacity: 0.7;">
+              <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+              <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+            </svg>
+          </a>
+          <a href="/examples" class="mobile-menu-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+            </svg>
+            Examples
+          </a>
+          <a href="/about" class="mobile-menu-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+            About
+          </a>
+          <a href="/stats" class="mobile-menu-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zM1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+            </svg>
+            Stats
+          </a>
+          <a href="/terms" class="mobile-menu-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+            </svg>
+            Terms
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Main Page Content -->
+    <main class="container" style="margin-top: 20px;">
+      <header>
+        <h1 class="text-center mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: -12px;" width="42" height="42" viewBox="0 0 33.866666 33.866668" version="1.1" id="svg8" role="img" aria-label="Thumbs up icon">
+    <defs id="defs2"/>
+    <metadata id="metadata5"></metadata>
+    <g id="layer1" transform="translate(0,-263.13332)">
+      <circle style="opacity:1;fill:#ffcb43;fill-opacity:1;fill-rule:nonzero;stroke:#d97516;stroke-width:1.64984906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" id="path864" cx="21.058601" cy="282.36713" r="11.812765"/>
+      <path style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#955715;stroke-width:0.77646387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" d="m 29.930709,284.76789 c -2.499665,9.59648 -16.995028,5.3977 -13.333481,-2.95723 z" id="path868"/>
+      <g id="g1101" transform="matrix(0.9058295,0.19961533,-0.19961533,0.9058295,59.75294,25.1245)">
+        <ellipse ry="2.9399645" rx="2.4054255" cy="275.68524" cx="25.256971" id="path1081" style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.62099999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"/>
+        <ellipse style="opacity:1;fill:#426672;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.39170238;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" id="ellipse1085" cx="24.930645" cy="275.92773" rx="1.6495322" ry="1.7056991"/>
+        <ellipse ry="0.54814696" rx="0.53009707" cy="275.5025" cx="25.71022" id="ellipse1087" style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1258783;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"/>
+        <ellipse style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.62099999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" id="ellipse1089" cx="18.122671" cy="275.68524" rx="2.4054255" ry="2.9399645"/>
+        <ellipse ry="1.7056991" rx="1.6495322" cy="275.92773" cx="17.796345" id="ellipse1091" style="opacity:1;fill:#426672;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.39170238;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"/>
+        <ellipse style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1258783;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" id="ellipse1093" cx="18.57592" cy="275.5025" rx="0.53009707" ry="0.54814696"/>
+      </g>
+      <path style="opacity:0.55;fill:#955715;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.56919795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" d="m 18.248562,276.02366 c 1.474846,-4.20661 3.750373,-3.30667 5.228839,-0.73266 -2.39702,-2.44651 -4.119993,-0.48597 -5.228839,0.73266 z" id="path1108"/>
+      <path id="path1114" d="m 26.61854,275.67106 c 3.898978,-1.62353 4.893513,0.54605 4.186369,3.21741 -0.229863,-3.05449 -2.696491,-3.08444 -4.186369,-3.21741 z" style="opacity:0.55;fill:#955715;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.56919795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"/>
+      <g id="g1131" transform="matrix(0.9150157,-0.05357486,0.05357486,0.9150157,105.41855,15.176754)">
+        <path style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#d97516;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" d="m -118.60608,275.04635 c 6.53061,2.33725 8.08124,8.90138 0.12607,4.57722 8.62314,1.33667 4.93006,9.48562 -1.37968,3.79703 6.98276,1.65153 4.27869,8.92389 -2.03575,4.00863 6.76947,3.42852 0.44839,4.44887 -3.82145,2.69382 -5.68137,-2.33524 -5.66513,-5.02713 -4.79713,-6.99186 0.868,-1.96473 2.46285,-6.48374 4.35183,-8.12256 1.73053,-1.50138 2.66567,-1.37562 2.66567,-1.37562 2.50893,-2.09034 1.13763,-5.62698 2.83614,-6.62487 1.63148,-0.95851 3.29827,0.22251 3.51536,2.66978 0.19295,2.17526 -0.5775,3.2958 -1.46106,5.36843 z" id="path1118"/>
+        <path id="path837" d="m -118.60608,275.04635 c 6.53061,2.33725 8.08124,8.90138 0.12607,4.57722 8.62314,1.33667 4.93006,9.48562 -1.37968,3.79703 6.98276,1.65153 4.27869,8.92389 -2.03575,4.00863 6.76947,3.42852 0.44839,4.44887 -3.82145,2.69382 -5.68137,-2.33524 -5.66513,-5.02713 -4.79713,-6.99186 0.868,-1.96473 2.46285,-6.48374 4.35183,-8.12256 1.73053,-1.50138 2.66567,-1.37562 2.66567,-1.37562 2.50893,-2.09034 1.13763,-5.62698 2.83614,-6.62487 1.63148,-0.95851 3.29827,0.22251 3.51536,2.66978 0.19295,2.17526 -0.5775,3.2958 -1.46106,5.36843 z" style="opacity:1;fill:#ffc93b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.33885163;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"/>
+        <path d="m -124.64447,286.07269 c 1.6451,0.95113 4.46921,2.55837 5.68471,3.65456 -0.0943,-0.29973 -0.38119,-0.65417 -0.89889,-1.05938 0.61539,0.2658 1.17396,0.40053 1.66815,0.42943 -1.54624,-0.82778 -4.4355,-2.31824 -6.45397,-3.02461 z m 2.05878,-3.68227 6.56301,3.57173 c -0.10367,-0.21 -0.23695,-0.41787 -0.40116,-0.62188 0.38823,0.0737 0.74895,0.0907 1.07333,0.0514 z m 1.04661,-3.98254 c 2.19158,1.31325 5.25324,2.52319 7.58206,3.44383 -0.20714,-0.28427 -0.47832,-0.56052 -0.81604,-0.81939 0.28037,0.0325 0.52419,0.036 0.73193,0.007 -2.23059,-0.50525 -5.21306,-1.78343 -7.49794,-2.63119 z" style="opacity:1;fill:#9d5500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.7770319;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" id="path843"/>
+      </g>
+    </g>
+</svg>
+          Free AI Image Generator
+        </h1>
+        <p id="heroSubtitle" class="text-center text-muted mb-4" style="font-size: 1.1rem;">
+          Create AI art instantly. Free, no signup.
+        </p>
+      </header>
+
+      <section aria-label="Image Generation Tool">
+        <div class="generator-layout">
+          <!-- Freegen_S2S_Mrec1_ROS - Left sidebar ad (desktop only) -->
+          <div class="sidebar-ad sidebar-ad-left">
+            <style>
+              @media only screen and (min-width: 0px) and (min-height: 0px) {
+                  div[id^="bsa-zone_1768997972212-4_123456"] {
+                      min-width: 300px;
+                      min-height: 50px;
+                  }
+              }
+              @media only screen and (min-width: 770px) and (min-height: 0px) {
+                  div[id^="bsa-zone_1768997972212-4_123456"] {
+                      min-width: 300px;
+                      min-height: 250px;
+                   }
+              }
+            </style>
+            <div id="bsa-zone_1768997972212-4_123456"></div>
+          </div>
+          <div class="main-generator-box">
+          <!-- Textarea for prompt -->
+          <div class="mb-2 textarea-wrapper">
+            <label for="prompt" class="visually-hidden">Enter your AI image prompt</label>
+            <textarea id="prompt" class="form-control" placeholder="Type your prompt here and press Enter..." rows="4" autofocus aria-label="AI image generation prompt input" aria-describedby="promptHelp"></textarea>
+            <div id="promptHelp" class="visually-hidden">Describe the image you want to create. Be specific for best results.</div>
+            <!-- Mobile navigation dropdown positioned on textarea -->
+            <div class="mobile-nav-dropdown d-md-none">
+              <div id="mobileNavBtn" class="mobile-info-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+              </div>
+              <!-- Mobile dropdown menu -->
+              <div id="mobileDropdownMenu" class="mobile-dropdown-menu">
+                <a href="https://aiselfie.com/" target="_blank" rel="noopener noreferrer" class="mobile-menu-item mobile-menu-item--aiselfie">
+                  <img src="https://aiselfie.com/favicon-96x96.png" alt="" width="16" height="16" style="vertical-align: text-bottom;">
+                  AI Selfie
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: baseline; margin-left: 2px; opacity: 0.7;">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                  </svg>
+                </a>
+                <a href="/examples" class="mobile-menu-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+                  </svg>
+                  Examples
+                </a>
+                <a href="/about" class="mobile-menu-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+                  About
+                </a>
+                <a href="/stats" class="mobile-menu-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zM1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+                  </svg>
+                  Stats
+                </a>
+                <a href="/terms" class="mobile-menu-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                  </svg>
+                  Terms
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row for From Image and Style Selection -->
+          <div class="row mb-3 align-items-center">
+            <!-- Left: From Image Button -->
+            <div class="col-auto">
+              <button id="uploadImageBtn" class="btn custom-btn me-2" aria-label="Upload image for image-to-image generation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 26" style="fill: rgba(0, 0, 0, 0.6);">
+    <circle cx="7.499" cy="9.5" r="1.5"></circle>
+    <path d="m10.499 14-1.5-2-3 4h12l-4.5-6z"></path>
+    <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-16 14V6h16l.002 12H3.999z"></path>
+</svg>
+                Image Prompt
+              </button>
+              <!-- Hidden file input -->
+              <input type="file" id="imageInput" accept="image/*" style="display: none;" aria-label="Image file upload input">
+            </div>
+            <!-- Right: Style Selection -->
+            <div class="col-auto ms-auto d-flex align-items-center">
+    <span class="me-2 fw-bold" style="color: #888;">Aspect ratio</span>
+    <select id="aspectRatioSelect" class="form-select form-select-sm" style="width: auto; cursor: pointer;">
+        <option value="1:1">1:1</option>
+        <option value="4:3" selected>4:3</option>
+        <option value="3:4">3:4</option>
+        <option value="16:9">16:9</option>
+        <option value="9:16">9:16</option>
+    </select>
+</div>
+
+          </div>
+
+          <!-- Image Preview Container (hidden by default) -->
+          <div id="imagePreviewContainer" class="m-3 mt-4" style="display: none;" role="region" aria-label="Uploaded image preview">
+            <div class="position-relative d-inline-block">
+              <img id="selectedImagePreview" src="" alt="Preview of uploaded image for AI transformation" style="max-width: 100px; border: 1px solid #ccc; border-radius: 4px;">
+              <button id="removeImageBtn" type="button" class="btn btn-sm btn-danger position-absolute top-0 end-0" style="transform: translate(50%,-50%);" aria-label="Remove uploaded image">×</button>
+            </div>
+          </div>
+
+          <!-- Generate button -->
+          <div class="d-grid gap-2">
+            <button id="generateBtn" class="btn btn-primary" aria-label="Generate AI image from prompt">Generate</button>
+          </div>
+
+
+          <!-- Error message -->
+          <div id="errorContainer" class="mt-3 text-danger" role="alert" aria-live="polite"></div>
+          <!-- Image display area -->
+          <div id="imageContainer" class="mt-4 text-center" role="region" aria-label="Generated image output"></div>
+
+        </div>
+          <!-- Freegen_S2S_Mrec2_ROS - Right sidebar ad (desktop only) -->
+          <div class="sidebar-ad sidebar-ad-right">
+            <style>
+              @media only screen and (min-width: 0px) and (min-height: 0px) {
+                  div[id^="bsa-zone_1768998080701-3_123456"] {
+                      min-width: 300px;
+                      min-height: 50px;
+                  }
+              }
+              @media only screen and (min-width: 770px) and (min-height: 0px) {
+                  div[id^="bsa-zone_1768998080701-3_123456"] {
+                      min-width: 300px;
+                      min-height: 250px;
+                  }
+              }
+            </style>
+            <div id="bsa-zone_1768998080701-3_123456"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="seoFeaturesSection" class="mt-5 pt-4" style="border-top: 1px solid #e0e0e0;">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center mb-4">Why Choose Our Free AI Image Generator?</h2>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="text-center">
+              <div class="mb-3" style="font-size: 2.5rem;">🎨</div>
+              <h3 style="font-size: 1.2rem;">Flexible Aspect Ratios</h3>
+              <p class="text-muted">Choose from 1:1, 4:3, 3:4, 16:9, or 9:16 to fit any use case. <a href="/examples">See examples</a>.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <div class="mb-3" style="font-size: 2.5rem;">⚡</div>
+              <h3 style="font-size: 1.2rem;">Lightning Fast</h3>
+              <p class="text-muted">Generate high-quality AI images in less than 10 seconds. Real-time delivery powered by WebSocket technology.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <div class="mb-3" style="font-size: 2.5rem;">🔓</div>
+              <h3 style="font-size: 1.2rem;">No Signup Required</h3>
+              <p class="text-muted">Start creating immediately. No account registration, no credit card, no hidden costs. Unlimited free generations.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <div class="mb-3" style="font-size: 2.5rem;">🖼️</div>
+              <h3 style="font-size: 1.2rem;">Text & Image Prompts</h3>
+              <p class="text-muted">Create from text descriptions or upload your own images for AI-powered transformations and enhancements.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <div class="mb-3" style="font-size: 2.5rem;">🚀</div>
+              <h3 style="font-size: 1.2rem;">Z-Image Turbo</h3>
+              <p class="text-muted">Powered by Z-Image Turbo for professional-quality results with stunning detail and artistic coherence at blazing speed.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <div class="mb-3" style="font-size: 2.5rem;">💯</div>
+              <h3 style="font-size: 1.2rem;">100% Free Forever</h3>
+              <p class="text-muted">No trials, no subscriptions, no limits. Our AI image generator will always be free to use for everyone.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works Section -->
+      <section id="seoHowItWorksSection" class="mt-5 pt-4" style="border-top: 1px solid #e0e0e0;">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center mb-4">How to Generate AI Images</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="d-flex align-items-start mb-4">
+              <div class="flex-shrink-0 me-3" style="width: 40px; height: 40px; background: #0d6efd; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">1</div>
+              <div>
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Enter Your Prompt</h3>
+                <p class="text-muted mb-0">Describe the image you want to create in the text box. Be specific and detailed for best results.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-4">
+              <div class="flex-shrink-0 me-3" style="width: 40px; height: 40px; background: #0d6efd; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">2</div>
+              <div>
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Choose Your Aspect Ratio</h3>
+                <p class="text-muted mb-0">Select from 1:1, 4:3, 3:4, 16:9, or 9:16 to match your creative needs.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-4">
+              <div class="flex-shrink-0 me-3" style="width: 40px; height: 40px; background: #0d6efd; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">3</div>
+              <div>
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Upload an Image (Optional)</h3>
+                <p class="text-muted mb-0">Use the "Image Prompt" button to upload a reference image for image-to-image AI transformation.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-4">
+              <div class="flex-shrink-0 me-3" style="width: 40px; height: 40px; background: #0d6efd; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">4</div>
+              <div>
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Generate & Download</h3>
+                <p class="text-muted mb-0">Click "Generate" and wait less than 10 seconds. Your AI-generated image will appear automatically. Right-click to save!</p>
+              </div>
+            </div>
+            <!-- Freegen_S2S_Homepage_Leaderboard1_ROS -->
+            <div class="text-center mt-4">
+              <style>
+                @media only screen and (min-width: 0px) and (min-height: 0px) {
+                    div[id^="bsa-zone_1768997680653-3_123456"] {
+                        min-width: 300px;
+                        min-height: 50px;
+                    }
+                }
+                @media only screen and (min-width: 770px) and (min-height: 0px) {
+                    div[id^="bsa-zone_1768997680653-3_123456"] {
+                        min-width: 468px;
+                        min-height: 60px;
+                    }
+                }
+              </style>
+              <div id="bsa-zone_1768997680653-3_123456"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Example Gallery Section -->
+      <section id="seoExamplesSection" class="mt-5 pt-4" style="border-top: 1px solid #e0e0e0;">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center mb-3">AI-Generated Image Examples</h2>
+            <p class="text-center text-muted mb-4">See what's possible with our free AI image generator. Each image was created in seconds from a simple text prompt.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="row g-4 mb-4">
+              <!-- Example 1: Seal Point Cat -->
+              <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <img
+                    src="https://assets.freegen.app/web/examples/1_xs.webp"
+                    class="card-img-top"
+                    alt="AI generated fluffy seal point cat with blue eyes in green grass field"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover;">
+                  <div class="card-body">
+                    <p class="small text-muted mb-0"><strong>Prompt:</strong> "A fluffy seal point cat lounging in a vibrant green grass field..."</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Example 2: Winter Snowman -->
+              <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <img
+                    src="https://assets.freegen.app/web/examples/2_xs.webp"
+                    class="card-img-top"
+                    alt="AI generated winter scene with cheerful snowman wearing red hat and scarf"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover;">
+                  <div class="card-body">
+                    <p class="small text-muted mb-0"><strong>Prompt:</strong> "A cheerful snowman with a red hat and scarf next to a cabin..."</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Example 3: Stone Cat -->
+              <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                  <img
+                    src="https://assets.freegen.app/web/examples/3_xs.webp"
+                    class="card-img-top"
+                    alt="AI generated artistic stone cat sculpture made from natural rocks"
+                    loading="lazy"
+                    style="height: 200px; object-fit: cover;">
+                  <div class="card-body">
+                    <p class="small text-muted mb-0"><strong>Prompt:</strong> "Cat made from stones"</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <a href="/examples" class="btn btn-outline-primary">View 15+ More Examples →</a>
+            </div>
+            <!-- Freegen_S2S_Homepage_Leaderboard2_ROS -->
+            <div class="text-center mt-4">
+              <style>
+                @media only screen and (min-width: 0px) and (min-height: 0px) {
+                    div[id^="bsa-zone_1768997804563-4_123456"] {
+                        min-width: 300px;
+                        min-height: 50px;
+                    }
+                }
+                @media only screen and (min-width: 770px) and (min-height: 0px) {
+                    div[id^="bsa-zone_1768997804563-4_123456"] {
+                        min-width: 468px;
+                        min-height: 60px;
+                    }
+                }
+              </style>
+              <div id="bsa-zone_1768997804563-4_123456"></div>
+            </div>
+            <div class="text-center mt-4">
+              <img
+                src="https://aifnet-projects.b-cdn.net/freegen/assets/imgs/collage.webp"
+                class="img-fluid rounded shadow-sm"
+                alt="AI generated image collage created with Free Collage App"
+                loading="lazy">
+              <p class="small text-muted mt-2">This collage was created with <a href="https://freecollage.app/" target="_blank" rel="noopener">Free Collage App</a> — a free online collage maker.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="seoFaqSection" class="mt-5 pt-4 mb-5" style="border-top: 1px solid #e0e0e0;">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="mb-4">
+              <h3 style="font-size: 1.1rem; color: #0d6efd; margin-bottom: 0.75rem;">Is the AI image generator really free?</h3>
+              <p class="text-muted">Yes! Our AI image generator is completely free to use with no signup required. You can generate unlimited images without any hidden costs, subscriptions, or paywalls. We believe AI art should be accessible to everyone.</p>
+            </div>
+            <div class="mb-4">
+              <h3 style="font-size: 1.1rem; color: #0d6efd; margin-bottom: 0.75rem;">What aspect ratios are available?</h3>
+              <p class="text-muted">We offer multiple aspect ratios: <strong>1:1</strong> (square), <strong>4:3</strong> and <strong>3:4</strong> (classic), and <strong>16:9</strong> and <strong>9:16</strong> (widescreen/portrait) to fit any use case from social media to wallpapers.</p>
+            </div>
+            <div class="mb-4">
+              <h3 style="font-size: 1.1rem; color: #0d6efd; margin-bottom: 0.75rem;">Do I need to create an account?</h3>
+              <p class="text-muted">No account creation is required. Simply visit the site, enter your text prompt, and click generate to create AI images instantly. No email, no password, no personal information needed.</p>
+            </div>
+            <div class="mb-4">
+              <h3 style="font-size: 1.1rem; color: #0d6efd; margin-bottom: 0.75rem;">How long does image generation take?</h3>
+              <p class="text-muted">Image generation typically takes less than 10 seconds. You'll see your generated image appear in real-time once processing is complete thanks to our WebSocket-powered delivery system.</p>
+            </div>
+            <div class="mb-4">
+              <h3 style="font-size: 1.1rem; color: #0d6efd; margin-bottom: 0.75rem;">Can I use the generated images commercially?</h3>
+              <p class="text-muted">Yes, you can use the AI-generated images for both personal and commercial projects. See our <a href="/terms">terms of service</a> for details.</p>
+            </div>
+            <div class="mb-4">
+              <h3 style="font-size: 1.1rem; color: #0d6efd; margin-bottom: 0.75rem;">What is the resolution of generated images?</h3>
+              <p class="text-muted">Generated images have a resolution of <strong>1024×768 pixels</strong>, which is great for most uses. If you need a higher resolution, you can use a free <a href="https://deepdreamgenerator.com/ai-upscaler" target="_blank" rel="noopener">AI Image Upscaler</a> to enlarge your images without losing quality.</p>
+              <a href="https://deepdreamgenerator.com/ai-upscaler" target="_blank" rel="noopener">
+                <img
+                  src="https://ddg-assets.b-cdn.net/web/ai-upscaler/landing/upscaler_video.webp"
+                  class="img-fluid rounded shadow-sm mt-2"
+                  alt="AI Image Upscaler - enlarge images without losing quality"
+                  loading="lazy">
+              </a>
+            </div>
+            <div class="mb-4">
+              <h3 style="font-size: 1.1rem; color: #0d6efd; margin-bottom: 0.75rem;">What AI model powers this generator?</h3>
+              <p class="text-muted">We use Z-Image Turbo, an advanced AI image generation model. It delivers high-quality, detailed images with excellent prompt adherence and artistic coherence, while maintaining blazing-fast generation speeds. <a href="/about">Learn more about our technology</a>.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Full Screen Ad Modal -->
+<div class="modal fade" id="adModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header border-0">
+        <div class="ms-auto">
+          <button type="button" id="skipAdBtn" class="btn btn-outline-light btn-sm" disabled>
+            Skip in <span id="skipTimer">5</span>s
+          </button>
+        </div>
+      </div>
+      <div class="modal-body d-flex align-items-center justify-content-center">
+        <div class="text-center">
+          <h1 class="display-4 mb-4">🎨 Support Free AI Art</h1>
+          <p class="lead mb-4">This service is completely free thanks to our supporters</p>
+          
+          <!-- Ad placeholder - replace with actual ad content -->
+          <div class="ad-content bg-secondary rounded p-5 mb-4" style="min-height: 300px;">
+            <h3>Advertisement Space</h3>
+            <p class="text-muted">Your ad could be here!</p>
+            <div class="placeholder-glow">
+              <span class="placeholder col-8"></span>
+              <span class="placeholder col-6"></span>
+              <span class="placeholder col-7"></span>
+            </div>
+          </div>
+          
+          <p class="text-muted">
+            <small>Want to remove ads? Consider supporting us!</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #adModal .modal-content {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  }
+  
+  #adModal .ad-content {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  #skipAdBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+</style>
+
+    <!-- Bootstrap JS - Commented out until ad modal is deployed -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script> -->
+
+    <script>
+
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', function(event) {
+    const dropdown = document.getElementById('contentPageMobileDropdownMenu');
+    const button = document.getElementById('contentPageMobileNavBtn');
+
+    if (dropdown && button) {
+      // If click is outside both button and dropdown
+      if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.classList.remove('show');
+      }
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // ---------------------------
+    // Element References & Constants
+    // ---------------------------
+    const promptInput            = document.getElementById('prompt');
+    const generateBtn            = document.getElementById('generateBtn');
+    const errorContainer         = document.getElementById('errorContainer');
+    const imageContainer         = document.getElementById('imageContainer');
+    const uploadImageBtn         = document.getElementById("uploadImageBtn");
+    const imageInput             = document.getElementById("imageInput");
+    const imagePreviewContainer  = document.getElementById("imagePreviewContainer");
+    const selectedImagePreview   = document.getElementById("selectedImagePreview");
+    const removeImageBtn         = document.getElementById("removeImageBtn");
+
+    // SEO content sections
+    const heroSubtitle           = document.getElementById("heroSubtitle");
+    const seoFeaturesSection     = document.getElementById("seoFeaturesSection");
+    const seoHowItWorksSection   = document.getElementById("seoHowItWorksSection");
+    const seoExamplesSection     = document.getElementById("seoExamplesSection");
+    const seoFaqSection          = document.getElementById("seoFaqSection");
+
+
+    
+      const SIGNER_URL    = "https://prompt-signer.freegen.app";
+      const GENERATOR_URL = "https://image-generator.freegen.app";
+      const WEBSOCKET_URL = "wss://websocket-bridge.freegen.app/ws";
+      const STATS_API_URL = "https://stats.freegen.app";
+    
+
+    // Global variable to hold the resized image data URL (if any)
+    let resizedImageData = null;
+    const MAX_SIZE = 512; // Maximum width/height
+
+    // Global job tracking
+    let currentJobId = null;
+    let jobCompleted = false;
+    let timerInterval = null;
+    let originalBtnHTML = null;
+
+    // Usage tracking for ads (popup ad system)
+    let generationCount = parseInt(localStorage.getItem('generationCount') || '0');
+    const AD_THRESHOLD = 0; // Set to 0 to disable popup ads completely
+
+    // Inline generation ad configuration (separate system)
+    const GENERATION_AD_CONFIG = {
+        enabled: true,
+        type: 'buysellads', // 'adsense', 'custom', 'banner', 'buysellads'
+        showAfterGeneration: 0, // Show after 3rd generation
+        adsenseConfig: {
+            client: 'ca-pub-XXXXXXXXX', // Replace with your AdSense client ID
+            slot: 'YYYYYYYYYY' // Replace with your ad slot ID
+        }
+    };
+
+    // Counter for inline generation ads (separate from popup ads)
+    let inlineAdGenerationCount = parseInt(localStorage.getItem('inlineAdGenerationCount') || '0');
+    let adAlreadyInjected = false;
+
+    // Add extra margin to image container to prevent content being hidden by ads
+    const style = document.createElement('style');
+    // style.textContent = `
+    //     #imageContainer:not(:empty) {
+    //         margin-bottom: 100px !important;
+    //     }
+    // `;
+    document.head.appendChild(style);
+
+    // ---------------------------
+    // Ad Management Functions
+    // ---------------------------
+
+
+    function injectAdOnce() {
+        // Only inject if enabled, we've had more than the threshold generations, and ad not already injected
+        if (!GENERATION_AD_CONFIG.enabled || inlineAdGenerationCount < GENERATION_AD_CONFIG.showAfterGeneration || adAlreadyInjected) {
+            return;
+        }
+
+        console.log('Injecting permanent generation ad');
+
+        // Fire GTM event for AdSense (if using AdSense)
+        if (GENERATION_AD_CONFIG.type === 'adsense') {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                'event': 'image_generation_ad_injected',
+                'generation_count': inlineAdGenerationCount
+            });
+        }
+
+        // Handle BuySellAds type
+        if (GENERATION_AD_CONFIG.type === 'buysellads') {
+            // Create ad container with styles
+            const adContainer = document.createElement('div');
+            adContainer.className = 'generation-ad-container mt-4 text-center';
+            adContainer.style.marginBottom = '250px';
+            adContainer.innerHTML = `
+                <style>
+                    .generation-ad-container {
+                        display: flex;
+                        justify-content: center;
+                        max-width: 100%;
+                    }
+                </style>
+                <div id="bsa-zone_1768997875379-6_123456"></div>
+            `;
+
+            // Insert after the entire section (outside the 3-column layout)
+            const section = imageContainer.closest('section');
+            if (section) {
+                section.parentNode.insertBefore(adContainer, section.nextSibling);
+            } else {
+                // Fallback: insert after image container's row
+                const row = imageContainer.closest('.row');
+                if (row) {
+                    row.parentNode.insertBefore(adContainer, row.nextSibling);
+                } else {
+                    imageContainer.parentNode.insertBefore(adContainer, imageContainer.nextSibling);
+                }
+            }
+
+            // Use Optimize Push function to display the ad
+            window.optimize = window.optimize || { queue: [] };
+            window.optimize.queue.push(function() {
+                window.optimize.push('bsa-zone_1768997875379-6_123456');
+            });
+
+            adAlreadyInjected = true;
+            console.log('BuySellAds generation ad injected');
+            return;
+        }
+
+        // Load the ad template for other types
+        fetch('/templates/partials/generation-ad.html')
+            .then(response => response.text())
+            .then(html => {
+                // Create ad container
+                const adContainer = document.createElement('div');
+                adContainer.innerHTML = html;
+
+                // Insert after image container
+                imageContainer.parentNode.insertBefore(adContainer.firstElementChild, imageContainer.nextSibling);
+
+                // If AdSense, push the ad
+                if (GENERATION_AD_CONFIG.type === 'adsense' && window.adsbygoogle) {
+                    try {
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        console.log('AdSense ad pushed for generation', inlineAdGenerationCount);
+                    } catch(e) {
+                        console.error('AdSense push failed:', e);
+                    }
+                }
+
+                adAlreadyInjected = true;
+                console.log('Permanent generation ad injected (type:', GENERATION_AD_CONFIG.type, ')');
+            })
+            .catch(err => {
+                console.error('Failed to load generation ad:', err);
+            });
+    }
+
+    // ---------------------------
+    // Utility Functions
+    // ---------------------------
+    // (Removed the showLoading() function so no text appears below the generate button)
+
+    // Button state management functions
+    function setButtonLoading() {
+      if (!originalBtnHTML) {
+        originalBtnHTML = generateBtn.innerHTML;
+      }
+      generateBtn.disabled = true;
+      generateBtn.innerHTML = `
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        Generating... <span id="timerDisplay">0.00s</span>
+      `;
+
+      // Start or restart timer
+      let startTime = Date.now();
+      if (timerInterval) clearInterval(timerInterval);
+      timerInterval = setInterval(() => {
+        const timerDisplay = document.getElementById("timerDisplay");
+        if (timerDisplay) {
+          const elapsed = (Date.now() - startTime) / 1000;
+          timerDisplay.textContent = elapsed.toFixed(2) + "s";
+        }
+      }, 100);
+    }
+
+    function setButtonNormal() {
+      if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+      }
+      generateBtn.disabled = false;
+      if (originalBtnHTML) {
+        generateBtn.innerHTML = originalBtnHTML;
+      }
+    }
+
+    function syncButtonState() {
+      // Sync button state with job tracking
+      if (currentJobId && !jobCompleted) {
+        // Only set loading if not already loading (to avoid timer restart)
+        if (!generateBtn.disabled) {
+          setButtonLoading();
+        }
+      } else {
+        setButtonNormal();
+      }
+    }
+
+    // Hide SEO content sections when generating
+    function hideSeoSections() {
+      const sections = [heroSubtitle, seoFeaturesSection, seoHowItWorksSection, seoExamplesSection, seoFaqSection];
+      sections.forEach(section => {
+        if (section) {
+          // Just hide immediately with no animation to prevent any jump
+          section.style.display = 'none';
+        }
+      });
+    }
+
+    // Function to create WebSocket authentication token
+    async function createWebSocketAuth(jobId) {
+      const timestamp = Math.floor(Date.now() / 1000);
+      const message = jobId + timestamp;
+
+      // Simple auth for development (in production, use proper HMAC)
+      
+      // In production, this should use the same HMAC as the signer
+      const encoder = new TextEncoder();
+      const data = encoder.encode(message);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+      return btoa(hashHex).substring(0, 20) + ':' + timestamp;
+      
+    }
+
+    // Function to resize an image from a data URL using canvas
+    function resizeImage(dataUrl, maxSize) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = function () {
+          let { width, height } = img;
+          if (width > height) {
+            if (width > maxSize) {
+              height = Math.round(height * (maxSize / width));
+              width = maxSize;
+            }
+          } else {
+            if (height > maxSize) {
+              width = Math.round(width * (maxSize / height));
+              height = maxSize;
+            }
+          }
+          const canvas = document.createElement("canvas");
+          canvas.width = width;
+          canvas.height = height;
+          const ctx = canvas.getContext("2d");
+          ctx.drawImage(img, 0, 0, width, height);
+          const resizedDataUrl = canvas.toDataURL("image/jpeg", 0.7);
+          resolve(resizedDataUrl);
+        };
+        img.onerror = function(err) {
+          reject(err);
+        };
+        img.src = dataUrl;
+      });
+    }
+
+    // ---------------------------
+    // File Input & Preview Handling
+    // ---------------------------
+    if (uploadImageBtn) {
+      uploadImageBtn.addEventListener("click", function() {
+        imageInput.click();
+      });
+    }
+
+    if (imageInput) {
+      imageInput.addEventListener("change", function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = async function(e) {
+          try {
+            const originalDataUrl = e.target.result;
+            resizedImageData = await resizeImage(originalDataUrl, MAX_SIZE);
+            selectedImagePreview.src = resizedImageData;
+            imagePreviewContainer.style.display = "block";
+          } catch (err) {
+            console.error("Error resizing image:", err);
+            errorContainer.textContent = "Failed to process image.";
+          }
+        };
+        reader.readAsDataURL(file);
+      }
+      });
+    }
+
+    if (removeImageBtn) {
+      removeImageBtn.addEventListener("click", function() {
+        imageInput.value = "";
+        resizedImageData = null;
+        imagePreviewContainer.style.display = "none";
+      });
+    }
+
+    // ---------------------------
+    // Generate Image Functionality with Timer & Spinner
+    // ---------------------------
+    async function generateImage() {
+      // Prevent multiple concurrent jobs
+      if (currentJobId && !jobCompleted) {
+        errorContainer.textContent = 'Please wait for the current job to complete.';
+        return;
+      }
+
+      errorContainer.textContent = '';
+
+      // Clear previous image
+      imageContainer.innerHTML = '';
+
+      let prompt = promptInput.value.trim();
+      const imageFile = imageInput.files[0];
+
+      if (!prompt && !imageFile) {
+        errorContainer.textContent = 'Please enter a prompt.';
+        return;
+      }
+      if (!prompt) {
+        prompt = '.';
+      }
+      const selectedRatio = document.getElementById('aspectRatioSelect')?.value || "4:3";
+
+      if (prompt.length > 2000) {
+        errorContainer.textContent = 'Prompt must be less than 2000 characters.';
+        return;
+      }
+
+      // Set button to loading state
+      setButtonLoading();
+
+      // Inject ad immediately on first generation (before waiting for result)
+      inlineAdGenerationCount++;
+      localStorage.setItem('inlineAdGenerationCount', inlineAdGenerationCount.toString());
+      injectAdOnce();
+
+      // Hide SEO content sections and scroll to focus on generation
+      hideSeoSections();
+
+      // Smooth scroll to the generation area
+      setTimeout(() => {
+        promptInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+
+      try {
+        // Get signed data from signer
+        const signerRes = await fetch(SIGNER_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt })
+        });
+
+        // Check for errors on the signer response
+        if (!signerRes.ok) {
+          if (signerRes.status === 429) {
+            throw new Error('Too many requests. Please wait a moment and try again.');
+          } else {
+            throw new Error(`Signer Error (${signerRes.status})`);
+          }
+        }
+
+        const { ts, sig } = await signerRes.json();
+
+        // Prepare the body for generator request
+        const body = {
+          prompt,
+          ts,
+          sig,
+          ratio_id: selectedRatio,
+        };
+
+        if (imageFile && resizedImageData) {
+          body.image_data = resizedImageData;
+        }
+
+        // Request image generation
+        const generatorRes = await fetch(GENERATOR_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+
+        // Check for errors on the generator response
+        if (!generatorRes.ok) {
+          // Try to parse the error response
+          let errorData;
+          try {
+            errorData = await generatorRes.json();
+          } catch {
+            errorData = { error: `Generator Error (${generatorRes.status})` };
+          }
+
+          // Check if it's an image refusal error
+          if (generatorRes.status === 400 && errorData.user_error) {
+            throw new Error(errorData.error || 'Image cannot be processed. Please try a different image.');
+          } else if (generatorRes.status === 429) {
+            throw new Error('Too many requests. Please wait a moment and try again.');
+          } else {
+            throw new Error(errorData.error || `Generator Error (${generatorRes.status})`);
+          }
+        }
+
+        const data = await generatorRes.json();
+
+        // Track job start time for performance metrics (for both WebSocket and fallback)
+        const jobStartTime = Date.now();
+
+        // Check if we got a job_id (new queue-based system)
+        if (data.job_id) {
+          // Track this job and sync button state
+          currentJobId = data.job_id;
+          jobCompleted = false;
+          syncButtonState(); // Ensure button stays in loading state
+
+          // Connect to WebSocket for real-time updates
+          const auth = await createWebSocketAuth(data.job_id);
+          const ws = new WebSocket(WEBSOCKET_URL);
+
+          let wsConnected = false;
+          let wsTimeout = null;
+
+          ws.onopen = () => {
+            wsConnected = true;
+            // Subscribe to this job
+            ws.send(JSON.stringify({
+              type: 'subscribe',
+              job_id: data.job_id,
+              auth: auth
+            }));
+
+            // Set timeout for connection (5 minutes)
+            wsTimeout = setTimeout(() => {
+              if (ws.readyState === WebSocket.OPEN) {
+                ws.close();
+                errorContainer.textContent = 'Connection timeout. Please try again.';
+                // Mark job as completed and sync button state on timeout
+                jobCompleted = true;
+                currentJobId = null;
+                syncButtonState();
+              }
+            }, 300000);
+          };
+
+          ws.onmessage = (event) => {
+            const message = JSON.parse(event.data);
+
+            if (message.type === 'status') {
+              // Update status in UI (optional - could add a status display)
+              console.log('Status:', message.message);
+            } else if (message.type === 'result') {
+              // Display the generated image
+              const imageUrl = message.image_data;
+              const truncatedPrompt = prompt.substring(0, 900);
+              const encodedPrompt = encodeURIComponent(truncatedPrompt).replace(/%20/g, '-');
+              const findSimilarBtn = (prompt && prompt.trim() && prompt.trim() !== '.') ?
+                `<a href="https://imgsearch.com/search/${encodedPrompt}?ref=freegen" target="_blank" rel="nofollow" class="btn btn-outline-secondary mt-2 me-2 simple-btn">Find Similar</a>` :
+                '';
+              imageContainer.innerHTML = `
+                <img src="${imageUrl}" alt="Generated Image" class="img-fluid">
+                <br>
+                ${findSimilarBtn}
+                <a href="${imageUrl}" download="generated_image.jpg" class="btn btn-primary mt-2">Download Image</a>
+              `;
+
+              // Mark job as completed and sync button state
+              jobCompleted = true;
+
+              // Record completion timing metrics
+              const totalTime = Date.now() - jobStartTime;
+              console.log('Recording completion time:', totalTime, 'ms for job:', data.job_id);
+              fetch(`${STATS_API_URL}/record-completion`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                  job_id: data.job_id,
+                  total_time_ms: totalTime,
+                  timestamp: new Date().toISOString()
+                })
+              })
+              .then(res => res.json())
+              .then(result => console.log('Timing recorded:', result))
+              .catch(err => console.error('Failed to record timing metrics:', err));
+
+              // Increment generation count for ad tracking (popup ads)
+              incrementGenerationCount();
+
+              currentJobId = null;
+              if (wsTimeout) clearTimeout(wsTimeout);
+              syncButtonState();
+              ws.close();
+            } else if (message.type === 'error') {
+              errorContainer.textContent = message.message || 'Failed to generate image.';
+              imageContainer.innerHTML = '';
+
+              // Mark job as completed and sync button state
+              jobCompleted = true;
+              currentJobId = null;
+              if (wsTimeout) clearTimeout(wsTimeout);
+              syncButtonState();
+              ws.close();
+            }
+          };
+
+          ws.onerror = (error) => {
+            console.error('WebSocket error:', error);
+            if (!wsConnected) {
+              errorContainer.textContent = 'Failed to connect for real-time updates. Please try again.';
+              // Mark job as completed and sync button state on WebSocket connection failure
+              jobCompleted = true;
+              currentJobId = null;
+              syncButtonState();
+            }
+          };
+
+          ws.onclose = () => {
+            if (wsTimeout) clearTimeout(wsTimeout);
+            // WebSocket closed - but button state is managed by job tracking
+            console.log('WebSocket connection closed');
+          };
+
+        } else if (data.image_data_url) {
+          // Fallback for old system
+          const truncatedPrompt = prompt.substring(0, 900);
+          const encodedPrompt = encodeURIComponent(truncatedPrompt).replace(/%20/g, '-');
+          const findSimilarBtn = (prompt && prompt.trim() && prompt.trim() !== '.') ?
+            `<a href="https://imgsearch.com/search/${encodedPrompt}?ref=freegen" target="_blank" rel="nofollow" class="btn btn-outline-secondary mt-2 me-2 simple-btn">Find Similar</a>` :
+            '';
+          imageContainer.innerHTML = `
+            <img src="${data.image_data_url}" alt="Generated Image" class="img-fluid">
+            <br>
+            ${findSimilarBtn}
+            <a href="${data.image_data_url}" download="generated_image.jpg" class="btn btn-primary mt-2">Download Image</a>
+          `;
+
+          // Record completion timing metrics for fallback system
+          const totalTime = Date.now() - jobStartTime;
+          console.log('Recording completion time (fallback):', totalTime, 'ms');
+          fetch(`${STATS_API_URL}/record-completion`, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+              job_id: 'fallback_' + Date.now(), // Generate a fallback job ID
+              total_time_ms: totalTime,
+              timestamp: new Date().toISOString()
+            })
+          })
+          .then(res => res.json())
+          .then(result => console.log('Timing recorded (fallback):', result))
+          .catch(err => console.error('Failed to record timing metrics (fallback):', err));
+
+          // Mark job as completed and sync button state for non-WebSocket responses
+          jobCompleted = true;
+          currentJobId = null;
+          syncButtonState();
+        } else {
+          imageContainer.innerHTML = '<div class="text-danger">Failed to generate image.</div>';
+
+          // Mark job as completed and sync button state for non-WebSocket responses
+          jobCompleted = true;
+          currentJobId = null;
+          syncButtonState();
+        }
+      } catch (err) {
+          if (err.message === "Failed to fetch") {
+            errorContainer.textContent = 'Too many requests. Please wait a moment and try again.';
+          } else {
+            errorContainer.textContent = err.message;
+          }
+          imageContainer.innerHTML = '';
+
+          // Mark job as completed and sync button state on error
+          jobCompleted = true;
+          currentJobId = null;
+          syncButtonState();
+        }
+    }
+
+    if (generateBtn) {
+      generateBtn.addEventListener('click', generateImage);
+    }
+
+    if (promptInput) {
+      promptInput.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          if (generateBtn) {
+            generateBtn.click();
+          }
+        }
+      });
+    }
+
+    // ---------------------------
+    // Navigation Functionality
+    // ---------------------------
+
+    // Mobile navigation dropdown functionality (for home page)
+    const mobileNavBtn = document.getElementById('mobileNavBtn');
+    const mobileDropdownMenu = document.getElementById('mobileDropdownMenu');
+
+    if (mobileNavBtn && mobileDropdownMenu) {
+      mobileNavBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        mobileDropdownMenu.classList.toggle('show');
+      });
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!mobileNavBtn.contains(e.target) && !mobileDropdownMenu.contains(e.target)) {
+          mobileDropdownMenu.classList.remove('show');
+        }
+      });
+
+      // Close dropdown when clicking on menu items (for better UX)
+      mobileDropdownMenu.addEventListener('click', function() {
+        mobileDropdownMenu.classList.remove('show');
+      });
+    }
+
+    // Mobile navigation dropdown functionality (for content pages)
+    const contentPageMobileNavBtn = document.getElementById('contentPageMobileNavBtn');
+    const contentPageMobileDropdownMenu = document.getElementById('contentPageMobileDropdownMenu');
+
+    if (contentPageMobileNavBtn && contentPageMobileDropdownMenu) {
+      contentPageMobileNavBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        contentPageMobileDropdownMenu.classList.toggle('show');
+      });
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!contentPageMobileNavBtn.contains(e.target) && !contentPageMobileDropdownMenu.contains(e.target)) {
+          contentPageMobileDropdownMenu.classList.remove('show');
+        }
+      });
+
+      // Close dropdown when clicking on menu items (for better UX)
+      contentPageMobileDropdownMenu.addEventListener('click', function(e) {
+        // Only close if clicking on a link, not the container
+        if (e.target.tagName === 'A' || e.target.closest('a')) {
+          contentPageMobileDropdownMenu.classList.remove('show');
+        }
+      });
+    }
+
+
+
+    // ---------------------------
+    // Ad System Functions
+    // ---------------------------
+    function showAdModal() {
+      const adModal = new bootstrap.Modal(document.getElementById('adModal'));
+      const skipAdBtn = document.getElementById('skipAdBtn');
+      const skipTimer = document.getElementById('skipTimer');
+
+      let countdown = 5;
+      skipAdBtn.disabled = true;
+
+      // Start countdown
+      const countdownInterval = setInterval(() => {
+        countdown--;
+        skipTimer.textContent = countdown;
+
+        if (countdown <= 0) {
+          clearInterval(countdownInterval);
+          skipAdBtn.disabled = false;
+          skipAdBtn.innerHTML = 'Skip Ad';
+        }
+      }, 1000);
+
+      // Skip button click handler
+      skipAdBtn.addEventListener('click', function() {
+        clearInterval(countdownInterval);
+        adModal.hide();
+        // Reset for next time
+        countdown = 5;
+        skipTimer.textContent = '5';
+        skipAdBtn.innerHTML = 'Skip in <span id="skipTimer">5</span>s';
+      });
+
+      adModal.show();
+    }
+
+    function incrementGenerationCount() {
+      // Only track and show ads if AD_THRESHOLD is greater than 0
+      if (AD_THRESHOLD <= 0) {
+        return; // Ads disabled
+      }
+
+      generationCount++;
+      localStorage.setItem('generationCount', generationCount.toString());
+
+      // Show ad after every AD_THRESHOLD generations
+      if (generationCount % AD_THRESHOLD === 0) {
+        // Delay ad slightly to let user see the generated image first
+        setTimeout(() => {
+          showAdModal();
+        }, 2000);
+      }
+    }
+  });
+</script>
+
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"81f5dff20b634c3e890379f3692b2a1b","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

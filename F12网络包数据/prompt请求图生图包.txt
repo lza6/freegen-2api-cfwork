@@ -1,0 +1,859 @@
+请求网址
+https://prompt-signer.freegen.app/
+请求方法
+POST
+状态代码
+200 OK
+远程地址
+127.0.0.1:10808
+引荐来源网址政策
+strict-origin-when-cross-origin
+access-control-allow-origin
+https://freegen.app
+alt-svc
+h3=":443"; ma=86400
+cf-ray
+9f077298ebf69d5f-NRT
+content-encoding
+zstd
+content-type
+application/json
+date
+Wed, 22 Apr 2026 20:41:09 GMT
+nel
+{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to
+{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=mgEZBLZ2YWQfbY0%2BoTAwqjU2HIUD1OyyPRWvOZrJLB1HRUfuNAY6oEsub2U8HQRF1uk2bnwAZn8jq2dmQ7DtUTi1FHPEsNDu6M2WWCPp90eqjTe5UJKwtWvvBN0kx29ft6ZzBw8EkZ%2FNUlYBNCBtK5IXoReK2JWz"}]}
+server
+cloudflare
+:authority
+prompt-signer.freegen.app
+:method
+POST
+:path
+/
+:scheme
+https
+accept
+*/*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+zh-CN,zh;q=0.9,en;q=0.8
+content-length
+19
+content-type
+application/json
+origin
+https://freegen.app
+priority
+u=1, i
+referer
+https://freegen.app/
+sec-ch-ua
+"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+
+
+{"prompt":"变帅"}
+
+
+{
+    "prompt": "变帅",
+    "ts": 1776890469,
+    "sig": "nBKNrVw/rbEaPkFE9Ybeu2Cu6sZTubV3iyU0fb76ixA="
+}
+
+请求网址
+https://image-generator.freegen.app/
+请求方法
+POST
+状态代码
+200 OK
+远程地址
+127.0.0.1:10808
+引荐来源网址政策
+strict-origin-when-cross-origin
+access-control-allow-origin
+https://freegen.app
+alt-svc
+h3=":443"; ma=86400
+cf-ray
+9f0772997b9fafd0-NRT
+content-encoding
+zstd
+content-type
+application/json
+date
+Wed, 22 Apr 2026 20:41:11 GMT
+nel
+{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to
+{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=x%2BN%2BNWY2zU2HpgnK3a0Z3b%2FavGt5b0RtsTdndYTZW1Tuc03xSfq4M%2FCDz2Vm4%2BSy63TfTTN%2Bt%2FzvfnLvjYfObHRLPs1HlD9gXUQMzDsK8v8q1vfIjaKTg4k12GLhU5QNTd98S%2B%2B1X7ep8VlcZQpzB0sQ58tfbQHWNOs%3D"}]}
+server
+cloudflare
+:authority
+image-generator.freegen.app
+:method
+POST
+:path
+/
+:scheme
+https
+accept
+*/*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+zh-CN,zh;q=0.9,en;q=0.8
+content-length
+6677
+content-type
+application/json
+origin
+https://freegen.app
+priority
+u=1, i
+referer
+https://freegen.app/
+sec-ch-ua
+"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+
+{"prompt":"变帅","ts":1776890469,"sig":"nBKNrVw/rbEaPkFE9Ybeu2Cu6sZTubV3iyU0fb76ixA=","ratio_id":"16:9","image_data":"data:image/jpeg;base64,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展开
+
+
+{
+    "job_id": "01ad9cb3-744c-4ff9-ac5b-dd99995a6e49",
+    "res_prompt": "变帅 showcases a minimalist design featuring two wooden letters, T and f, arranged creatively on a light surface. The smooth, rounded edges of the letters give a warm and inviting feel, highlighting the natural wood grain. This simple yet elegant composition emphasizes thoughtful design, drawing attention to the beauty of form and texture. The neutral background enhances the focus on the letters, making them a striking element in the space. Overall, it blends artistry with simplicity, perfect for modern decor or a branding element.",
+    "status": "queued"
+}
+
+
+请求网址
+https://stats.freegen.app/record-completion
+请求方法
+POST
+状态代码
+200 OK
+远程地址
+127.0.0.1:10808
+引荐来源网址政策
+strict-origin-when-cross-origin
+access-control-allow-headers
+Content-Type
+access-control-allow-methods
+GET, POST, OPTIONS
+access-control-allow-origin
+*
+alt-svc
+h3=":443"; ma=86400
+cache-control
+public, max-age=60
+cf-ray
+9f0772d619f7db4c-NRT
+content-encoding
+zstd
+content-type
+application/json
+date
+Wed, 22 Apr 2026 20:41:19 GMT
+nel
+{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to
+{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XDLeT2NveypIUDcTqss5swMwhf8xeKzXbAlWMKvMEkpcrYc7SUpP67Hj7aWQxvgVo4AYp0IWLIroFS5h8DSkHi%2FKbmAg78HDJxaGL0oE0KZ8KpViQMOWZI1%2BXk5E2EwBfOqMJDjuUvygMkyjjtP8bw%3D%3D"}]}
+server
+cloudflare
+:authority
+stats.freegen.app
+:method
+POST
+:path
+/record-completion
+:scheme
+https
+accept
+*/*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+zh-CN,zh;q=0.9,en;q=0.8
+content-length
+109
+content-type
+application/json
+origin
+https://freegen.app
+priority
+u=1, i
+referer
+https://freegen.app/
+sec-ch-ua
+"Google Chrome";v="147", "Not.A/Brand";v="8", "Chromium";v="147"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+
+
+{"job_id":"01ad9cb3-744c-4ff9-ac5b-dd99995a6e49","total_time_ms":7597,"timestamp":"2026-04-22T20:38:30.903Z"}
+
+
+{
+    "success": true,
+    "message": "Timing recorded",
+    "job_id": "01ad9cb3-744c-4ff9-ac5b-dd99995a6e49"
+}
+
+
+curl ^"https://prompt-signer.freegen.app/^" ^
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: zh-CN,zh;q=0.9,en;q=0.8^" ^
+  -H ^"content-type: application/json^" ^
+  -H ^"origin: https://freegen.app^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://freegen.app/^" ^
+  -H ^"sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"147^\^", ^\^"Not.A/Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"147^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-site^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36^" ^
+  --data-raw ^"^{^\^"prompt^\^":^\^"^ ^ ^\^"^}^" &
+curl ^"https://image-generator.freegen.app/^" ^
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: zh-CN,zh;q=0.9,en;q=0.8^" ^
+  -H ^"content-type: application/json^" ^
+  -H ^"origin: https://freegen.app^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://freegen.app/^" ^
+  -H ^"sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"147^\^", ^\^"Not.A/Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"147^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-site^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36^" ^
+  --data-raw ^"^{^\^"prompt^\^":^\^"^ ^ ^\^",^\^"ts^\^":1776890469,^\^"sig^\^":^\^"nBKNrVw/rbEaPkFE9Ybeu2Cu6sZTubV3iyU0fb76ixA=^\^",^\^"ratio_id^\^":^\^"16:9^\^",^\^"image_data^\^":^\^"data:image/jpeg;base64,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^\^"^}^" &
+curl ^"https://stats.freegen.app/record-completion^" ^
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: zh-CN,zh;q=0.9,en;q=0.8^" ^
+  -H ^"content-type: application/json^" ^
+  -H ^"origin: https://freegen.app^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://freegen.app/^" ^
+  -H ^"sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"147^\^", ^\^"Not.A/Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"147^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-site^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36^" ^
+  --data-raw ^"^{^\^"job_id^\^":^\^"01ad9cb3-744c-4ff9-ac5b-dd99995a6e49^\^",^\^"total_time_ms^\^":7597,^\^"timestamp^\^":^\^"2026-04-22T20:38:30.903Z^\^"^}^"
+
+
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "generateImage",
+                "scriptId": "14",
+                "url": "https://freegen.app/",
+                "lineNumber": 1774,
+                "columnNumber": 32
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "10808",
+        "request": {
+          "method": "POST",
+          "url": "https://prompt-signer.freegen.app/",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "prompt-signer.freegen.app"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9,en;q=0.8"
+            },
+            {
+              "name": "content-length",
+              "value": "19"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://freegen.app/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 19,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"prompt\":\"变帅\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9f077298ebf69d5f-NRT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "zstd"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Apr 2026 20:41:09 GMT"
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=mgEZBLZ2YWQfbY0%2BoTAwqjU2HIUD1OyyPRWvOZrJLB1HRUfuNAY6oEsub2U8HQRF1uk2bnwAZn8jq2dmQ7DtUTi1FHPEsNDu6M2WWCPp90eqjTe5UJKwtWvvBN0kx29ft6ZzBw8EkZ%2FNUlYBNCBtK5IXoReK2JWz\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 88,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 396,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "127.0.0.1",
+        "startedDateTime": "2026-04-22T20:38:21.204Z",
+        "time": 93.74000001116656,
+        "timings": {
+          "blocked": 1.9950000041853637,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.18600000000000005,
+          "wait": 90.3390000014212,
+          "receive": 1.2200000055599958,
+          "_blocked_queueing": 1.0440000041853637,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "53158"
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "generateImage",
+                "scriptId": "14",
+                "url": "https://freegen.app/",
+                "lineNumber": 1804,
+                "columnNumber": 35
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "10808",
+        "request": {
+          "method": "POST",
+          "url": "https://image-generator.freegen.app/",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "image-generator.freegen.app"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9,en;q=0.8"
+            },
+            {
+              "name": "content-length",
+              "value": "6677"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://freegen.app/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 6677,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"prompt\":\"变帅\",\"ts\":1776890469,\"sig\":\"nBKNrVw/rbEaPkFE9Ybeu2Cu6sZTubV3iyU0fb76ixA=\",\"ratio_id\":\"16:9\",\"image_data\":\"data:image/jpeg;base64,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\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9f0772997b9fafd0-NRT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "zstd"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Apr 2026 20:41:11 GMT"
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=x%2BN%2BNWY2zU2HpgnK3a0Z3b%2FavGt5b0RtsTdndYTZW1Tuc03xSfq4M%2FCDz2Vm4%2BSy63TfTTN%2Bt%2FzvfnLvjYfObHRLPs1HlD9gXUQMzDsK8v8q1vfIjaKTg4k12GLhU5QNTd98S%2B%2B1X7ep8VlcZQpzB0sQ58tfbQHWNOs%3D\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 622,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 730,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "127.0.0.1",
+        "startedDateTime": "2026-04-22T20:38:21.299Z",
+        "time": 2002.76699999813,
+        "timings": {
+          "blocked": 1.4369999980814754,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.29700000000000004,
+          "wait": 1999.857000009384,
+          "receive": 1.1759999906644225,
+          "_blocked_queueing": 0.9399999980814755,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "53165"
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "ws.onmessage",
+                "scriptId": "14",
+                "url": "https://freegen.app/",
+                "lineNumber": 1898,
+                "columnNumber": 14
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "10808",
+        "request": {
+          "method": "POST",
+          "url": "https://stats.freegen.app/record-completion",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "stats.freegen.app"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/record-completion"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "zh-CN,zh;q=0.9,en;q=0.8"
+            },
+            {
+              "name": "content-length",
+              "value": "109"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://freegen.app"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://freegen.app/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 109,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"job_id\":\"01ad9cb3-744c-4ff9-ac5b-dd99995a6e49\",\"total_time_ms\":7597,\"timestamp\":\"2026-04-22T20:38:30.903Z\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "value": "Content-Type"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=60"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9f0772d619f7db4c-NRT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "zstd"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 22 Apr 2026 20:41:19 GMT"
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XDLeT2NveypIUDcTqss5swMwhf8xeKzXbAlWMKvMEkpcrYc7SUpP67Hj7aWQxvgVo4AYp0IWLIroFS5h8DSkHi%2FKbmAg78HDJxaGL0oE0KZ8KpViQMOWZI1%2BXk5E2EwBfOqMJDjuUvygMkyjjtP8bw%3D%3D\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 92,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 393,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "127.0.0.1",
+        "startedDateTime": "2026-04-22T20:38:30.903Z",
+        "time": 650.4219999769703,
+        "timings": {
+          "blocked": 94.77299998583273,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.131,
+          "wait": 554.454999987796,
+          "receive": 1.0630000033415854,
+          "_blocked_queueing": 94.13799998583272,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        },
+        "_connectionId": "53261"
+      }
+    ]
+  }
+}
+
